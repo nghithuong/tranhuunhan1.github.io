@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <style>
+        .typing {
+            display: flew;
+            align-items: center;
+            justify-content: center;
+            min-height: 80vh;
+        }
+
+        .typing-effect {
+            width: 17ch;
+            overflow: hidden;
+            font-size: 4em;
+            font-family: monospace;
+            white-space: nowrap;
+            border-right: 4px solid;
+            animation: typing 2s steps(30), effect 0.5s step-end infinite;
+            /* duration timing-function delay iteration-count direction fill-mode; */
+        }
+
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+        }
+
+        @keyframes effect {
+            50% {
+                border-color: transparent;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <a href="2.html">go to 2</a>
+    <a href="1.html"> go to 1</a>
+    <a href="meta-example.html">go to eg</a>
+    <div class="typing">
+        <div class="typing-effect">Trần Hữu Nhân Ngu</div>
+    </div>
+
+</html>
+
